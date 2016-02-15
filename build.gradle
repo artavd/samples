@@ -10,5 +10,19 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'spring-boot'
 
+jar {
+    baseName = 'sandbox-spring'
+    version = '0.1.0'
+}
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter:1.3.2.RELEASE'
+    testCompile 'junit:junit:4.12'
+}
