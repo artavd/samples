@@ -1,1 +1,1 @@
-rootProject.name = 'sandbox-spring'
+include 'console', 'web'

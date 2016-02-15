@@ -1,4 +1,4 @@
-package sbl.sandbox.spring.async;
+package sbl.sandbox.spring.console.async;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

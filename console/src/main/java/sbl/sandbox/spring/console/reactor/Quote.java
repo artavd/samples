@@ -1,4 +1,4 @@
-package sbl.sandbox.spring.reactor;
+package sbl.sandbox.spring.console.reactor;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

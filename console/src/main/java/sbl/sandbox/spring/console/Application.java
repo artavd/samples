@@ -1,4 +1,4 @@
-package sbl.sandbox.spring;
+package sbl.sandbox.spring.console;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -10,10 +10,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import reactor.Environment;
 import reactor.bus.EventBus;
-import sbl.sandbox.spring.async.GitHubLookupService;
-import sbl.sandbox.spring.async.User;
-import sbl.sandbox.spring.reactor.Publisher;
-import sbl.sandbox.spring.reactor.Receiver;
+import sbl.sandbox.spring.console.async.GitHubLookupService;
+import sbl.sandbox.spring.console.async.User;
+import sbl.sandbox.spring.console.reactor.Publisher;
+import sbl.sandbox.spring.console.reactor.Receiver;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Future;

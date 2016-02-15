@@ -1,4 +1,4 @@
-package sbl.sandbox.spring.scheduling;
+package sbl.sandbox.spring.console.scheduling;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
